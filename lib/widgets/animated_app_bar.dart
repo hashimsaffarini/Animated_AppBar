@@ -7,8 +7,7 @@ class AnimatedAppBar extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return SafeArea(
-      
+    return SafeArea( 
       child: Padding(
         padding: const EdgeInsets.symmetric(horizontal: 16),
         child: Row(
